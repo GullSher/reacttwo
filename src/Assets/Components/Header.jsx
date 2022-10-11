@@ -1,4 +1,4 @@
-  <div id="comparison">
+<div id="comparison">
   <figure>
     <div id="divisor"></div>
   </figure>
