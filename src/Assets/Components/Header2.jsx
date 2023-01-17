@@ -18,7 +18,8 @@ const Header2 = () => {
                 {/* <Carousel-Inner> */}
                 <Carousel.Item className='Item1' active interval={1000}>
                     <img
-                        className="d-block w-100"
+                        // className="d-block w-100"
+                        // className="d-block"
                         src={Img1}
                         alt="First slide"
                     // width="30%" height="30%"
@@ -32,7 +33,8 @@ const Header2 = () => {
 
                 <Carousel.Item className='Item2' interval={1000}>
                     <img
-                        className="d-block w-100"
+                        // className="d-block w-100"
+                        // className="d-block"
                         // src="holder.js/800x400?text=Second slide&bg=282c34"
                         src={Img2}
                         alt="Second slide"
@@ -49,7 +51,8 @@ const Header2 = () => {
 
                 <Carousel.Item className='Item1' interval={500}>
                     <img
-                        className="d-block w-100"
+                        // className="d-block w-100"
+                        // className="d-block"
                         src={Img3}
                         alt="Third slide"
                     // width="30%" height="30%"
