@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Carousel } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
+import '../Components/Comp-Css/HeaderCss2.css';
 
 // {/* The following line can be included in your src/index.js or App.js file */ }
 // import { Carousel } from 'react-bootstrap/Carousel';
@@ -14,15 +14,15 @@ import Img3 from '../Images/161573a.jpg';
 const Header2 = () => {
     return (
         <>
-            <Carousel>
-
-                <Carousel.Item interval={1000}>
+            <Carousel className="MainCarousel">
+                {/* <Carousel-Inner> */}
+                <Carousel.Item className='Item1' active interval={1000}>
                     <img
                         className="d-block w-100"
                         src={Img1}
                         alt="First slide"
-                        // width="30%" height="30%"
-                        width="400px" height="592px"
+                    // width="30%" height="30%"
+                    // width="100px" height="392px"
                     />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -30,15 +30,16 @@ const Header2 = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item interval={1000}>
+                <Carousel.Item className='Item2' interval={1000}>
                     <img
                         className="d-block w-100"
                         // src="holder.js/800x400?text=Second slide&bg=282c34"
                         src={Img2}
                         alt="Second slide"
-                        // width="30%" height="30%"
-                        width="400px" height="592px"
-                        margin='auto'
+                    // width="30%" height="30%"
+                    // width="400px" height="592px"
+                    // width="100px" height="392px"
+                    // margin='auto'
                     />
                     <Carousel.Caption>
                         <h3>Second slide label</h3>
@@ -46,13 +47,14 @@ const Header2 = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item className='Item1' interval={500}>
                     <img
                         className="d-block w-100"
                         src={Img3}
                         alt="Third slide"
-                        // width="30%" height="30%"
-                        width="400px" height="592px"
+                    // width="30%" height="30%"
+                    // width="400px" height="592px"
+                    // width="100px" height="392px"
                     />
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
@@ -61,7 +63,7 @@ const Header2 = () => {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-
+                {/* </Carousel-Inner> */}
             </Carousel>
         </>
     )
