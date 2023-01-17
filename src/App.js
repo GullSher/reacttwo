@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+// import Header from './Assets/Components/Header.jsx';
+import MenuBar from './Assets/Components/MenuBar.jsx';
+
+// import Header1 from './Assets/Components/Header1.jsx';
+import Header2 from './Assets/Components/Header2.jsx';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div><h2>This is going to recreate just to update git.</h2></div>
+      {/* <Header /> */}
+      {/* <Header1 /> */}
+      <Header2 />
+      <MenuBar />
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
     </div>
   );
 }
