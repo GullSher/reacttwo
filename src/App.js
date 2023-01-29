@@ -14,10 +14,14 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // instead of blow import in "react-router-dom" v6 we are using
 //import { Switch, Route, Redirect } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { redirect } from "react-router-dom"
 
 import Footer from './Assets/Components/Footer';
 import Footer2 from './Assets/Components/Footer2';
 import Home from "./Assets/Components/Home";
+import About from "./Assets/Components/About";
+import Services from "./Assets/Components/Services";
+import Contact from "./Assets/Components/Contact";
 import PageTwo from "./Assets/Components/PageTwo";
 
 
@@ -40,8 +44,9 @@ function App() {
         {/* <switch> */}
         <Route exact path="/" componet={Home} />
         <Route exact path="/" componet={About} />
-        <Route exact path="/" componet={Service} />
+        <Route exact path="/" componet={Services} />
         <Route exact path="/" componet={Contact} />
+        <Route exact path="/" componet={PageTwo} />
         <Redirect to="/" />
       </Router>
       {/* </switch> */}
