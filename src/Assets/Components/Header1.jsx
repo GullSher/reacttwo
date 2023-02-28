@@ -76,37 +76,39 @@ export default function Header1() {
                 </a>
             </div>
         </div>
-// Findiing ways to add inpage javascript in React.
-// https://betterprogramming.pub/4-ways-of-adding-external-js-files-in-reactjs-823f85de3668
-// https://hackernoon.com/how-to-add-script-tags-in-react
-{/* <script>
-$(document).ready(function(){
-  // Activate Carousel
-  $("#myCarousel").carousel({interval: 2800});
-    
-  // Enable Carousel Indicators
-  $(".item1").click(function(){
-    $("#myCarousel").carousel(0);
-  });
-  $(".item2").click(function(){
-    $("#myCarousel").carousel(1);
-  });
-  $(".item3").click(function(){
-    $("#myCarousel").carousel(2);
-  });
-  $(".item4").click(function(){
-    $("#myCarousel").carousel(3);
-  });
-    
-  // Enable Carousel Controls
-  $(".left").click(function(){
-    $("#myCarousel").carousel("prev");
-  });
-  $(".right").click(function(){
-    $("#myCarousel").carousel("next");
-  });
-});
-</script> */}
+        // Findiing ways to add inpage javascript in React.
+        // https://betterprogramming.pub/4-ways-of-adding-external-js-files-in-reactjs-823f85de3668
+        // https://hackernoon.com/how-to-add-script-tags-in-react
+
+        //  <script>
+        // $(document).ready(function(){
+        //   // Activate Carousel
+        //   $("#myCarousel").carousel({interval: 2800});
+
+        //   // Enable Carousel Indicators
+        //   $(".item1").click(function(){
+        //     $("#myCarousel").carousel(0);
+        //   });
+        //   $(".item2").click(function(){
+        //     $("#myCarousel").carousel(1);
+        //   });
+        //   $(".item3").click(function(){
+        //     $("#myCarousel").carousel(2);
+        //   });
+        //   $(".item4").click(function(){
+        //     $("#myCarousel").carousel(3);
+        //   });
+
+        //   // Enable Carousel Controls
+        //   $(".left").click(function(){
+        //     $("#myCarousel").carousel("prev");
+        //   });
+        //   $(".right").click(function(){
+        //     $("#myCarousel").carousel("next");
+        //   });
+        // });
+        // </script> 
+
 
 
     )
