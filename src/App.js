@@ -2,7 +2,7 @@ import './App.css';
 import MenuBar from './Assets/Components/MenuBar.jsx';
 import Header from './Assets/Components/Header.jsx';
 // import Header1 from './Assets/Components/Header1.jsx';
-import Header2 from './Assets/Components/Header2.jsx';
+// import Header2 from './Assets/Components/Header2.jsx';
 // import bootstrap from node_modules to use it
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
@@ -13,11 +13,15 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // importing "switch,Route, and ... from " reac-router-dom for using .....
 // instead of blow import in "react-router-dom" v6 we are using
 //import { Switch, Route, Redirect } from "react-router-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { redirect } from "react-router-dom"
+// import { BrowserRouter as Router, Redirect, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
+// import { BrowserRouter as Router, redirect, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { Redirect as redirect } from "react-router-dom";
+// import { Redirect as redirect } from "react-router-dom";
 
 import Footer from './Assets/Components/Footer';
-import Footer2 from './Assets/Components/Footer2';
+// import Footer2 from './Assets/Components/Footer2';
 import Home from "./Assets/Components/Home";
 import About from "./Assets/Components/About";
 import Services from "./Assets/Components/Services";
@@ -47,7 +51,7 @@ function App() {
         <Route exact path="/" componet={Services} />
         <Route exact path="/" componet={Contact} />
         <Route exact path="/" componet={PageTwo} />
-        <Redirect to="/" />
+        {/* <redirect to="/" /> */}
       </Router>
       {/* </switch> */}
       {/* <Navbar /> */}
@@ -55,10 +59,16 @@ function App() {
 
       <Header />
       {/* <Header1 /> */}
-      <Header2 />
+      {/* <Header2 /> */}
+      <div>
+        <p>
+          This is going to show.
+        </p>
+      </div>
       <Footer />
-      <Footer2 />
+      {/* <Footer2 /> */}
       <p>
+        Enter SomeThing Here.
         Edit <code>src/App.js</code> and save to reload.
       </p>
     </div>

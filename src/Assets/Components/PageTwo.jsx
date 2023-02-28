@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PageTwo() {
     return (
-        <div>PageTwo</div>
+        <div><p>PageTwo</p></div>
 
     )
 }

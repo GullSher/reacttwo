@@ -7,7 +7,7 @@ import {
     Column,
     FooterLink,
     Heading,
-} from "./Comp-Css/Footer2Styles";
+} from "    ./Comp-Css/Footer2Styles.css";
 
 const Footer2 = () => {
     return (
